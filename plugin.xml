@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <plugin id="cordova-payhere-client" version="0.1" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
     <name>cordova_payhere_client</name>
-    <js-module name="cordova_payhere_client" src="www/cordova_payhere_client.js">
+    <js-module name="PayhereClient_android" src="www/cordova_payhere_client.js">
         <clobbers target="cordova.plugins.cordova_payhere_client" />
     </js-module>
     <engines>
