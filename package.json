@@ -1,6 +1,6 @@
 {
     "name": "cordova-payhere-client",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "Payhere.lk Payment gateway client",
     "cordova": {
         "id": "cordova-payhere-client",
