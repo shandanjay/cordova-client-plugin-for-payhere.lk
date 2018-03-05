@@ -1,7 +1,12 @@
 # Apache Cordova android plugin payhere.lk payment gateway
 
+### Installation
+	```
+	npm install cordova-payhere-client --save
+	cordova plugin add cordova-payhere-client
+	```
 
-### JavaScript
+### Usage Example
 ```javascript
         window.payhereClient.checkout( {
 	    merchantId: "<PAYHERE_SANDBOX_MERCHANT_ID>",
