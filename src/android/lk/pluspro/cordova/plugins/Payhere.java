@@ -75,7 +75,7 @@ public class Payhere extends CordovaPlugin {
         } catch (JSONException $je) {
             callbackContext.error("Invalid data!");
         }
-        Intent intent = new Intent(cordova.getContext(), PHMainActivity.class);
+        Intent intent = new Intent(cordova.getActivity(), PHMainActivity.class);
         intent.putExtra(PHConstants.INTENT_EXTRA_DATA, req);
         PHConfigs.setBaseUrl(PHConfigs.SANDBOX_URL);
         if (this.cordova != null) {
