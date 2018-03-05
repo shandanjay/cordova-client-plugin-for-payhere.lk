@@ -8,6 +8,10 @@
             "android"
         ]
     },
+    "repository": {
+        "type": "git",
+    	"url": "https://github.com/shandanjay/cordova-client-plugin-for-payhere.lk"
+    },
     "keywords": [
         "ecosystem:cordova",
         "cordova-android"
