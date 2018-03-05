@@ -3,7 +3,7 @@
 
 ### JavaScript
 ```javascript
-        window.cordova.plugins.PayhereClient_android.checkout( {
+        window.payhereClient.checkout( {
 	    merchantId: "<PAYHERE_SANDBOX_MERCHANT_ID>",
 	    merchantSecret: "<PAYHERE_SANDBOX_MERCHANT_SECRET>",
             amount: 1180.50, // Amount which the customer should pay
