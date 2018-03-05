@@ -1,10 +1,10 @@
 # Apache Cordova android plugin payhere.lk payment gateway
 
 ### Installation
-	```
+```
 	npm install cordova-payhere-client --save
 	cordova plugin add cordova-payhere-client
-	```
+```
 
 ### Usage Example
 ```javascript
