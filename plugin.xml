@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin id="cordova-payhere-client" version="0.1" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+    <name>cordova_payhere_client</name>
+    <js-module name="cordova_payhere_client" src="www/cordova_payhere_client.js">
+        <clobbers target="cordova.plugins.cordova_payhere_client" />
+    </js-module>
+    <engines>
+    <engine name="cordova-android" version=">=1.8.0" />
+    </engines>
+
+
+  <!-- android -->
+  <platform name="android">
+    <framework src="payhere.gradle" custom="true" type="gradleReference" />
+
+    <framework src="com.android.support.constraint:constraint-layout:1.0.2" />
+    <framework src="com.android.support:appcompat-v7:26.1.0" />
+    <framework src="com.google.code.gson:gson:2.8.0" />
+    <framework src="lk.payhere.sdk:android-payment-sdk:0.1.3" />
+
+    <config-file target="config.xml" parent="/*">
+        <feature name="Payhere">
+            <param name="android-package" value="lk.pluspro.cordova.plugins.Payhere"/>
+        </feature>
+    </config-file>
+
+    <config-file target="AndroidManifest.xml" parent="/manifest">
+        <uses-permission android:name="android.permission.INTERNET" />
+    </config-file>    
+
+    <source-file src="src/android/lk/pluspro/cordova/plugins/Payhere.java" target-dir="src/lk/pluspro/cordova/plugins"/>
+  </platform>
+
+</plugin>

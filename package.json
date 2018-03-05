@@ -1,0 +1,17 @@
+{
+    "name": "cordova-payhere-client",
+    "version": "0.0.1",
+    "description": "Payhere.lk Payment gateway client",
+    "cordova": {
+        "id": "cordova-payhere-client",
+        "platforms": [
+            "android"
+        ]
+    },
+    "keywords": [
+        "ecosystem:cordova",
+        "cordova-android"
+    ],
+    "author": "Dan Jay",
+    "license": "ISC"
+}
