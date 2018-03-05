@@ -1,0 +1,1 @@
+# cordova-client-plugin-for-payhere.lk
