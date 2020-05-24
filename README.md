@@ -1,4 +1,4 @@
-# Apache Cordova android plugin payhere.lk payment gateway
+# Apache Cordova android plugin for [Payhere](https://payhere.lk) payment gateway
 
 ### Installation
 ```
@@ -45,4 +45,4 @@
         );
 ```
 
-
+* Note: This version has support for Android platform only. iOS support is not added (Yet)
