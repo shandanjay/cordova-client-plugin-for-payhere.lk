@@ -1,0 +1,55 @@
+repo_name: shandanjay/cordova-client-plugin-for-payhere.lk
+report_id: 62afcec5265ae03ed6b8b09ebb737386
+version: 0.1
+repo_type: Public
+timestamp: '2024-01-31T14:26:43+00:00'
+requested_by: shandanjay
+provider: github
+branch: master
+detected_tools_count: 4
+tools:
+- name: Java
+  description: A concurrent, class-based, object-oriented, language specifically designed
+    to have as few implementation dependencies as possible
+  website_url: https://www.java.com
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source_url: https://github.com/shandanjay/cordova-client-plugin-for-payhere.lk
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/shandanjay/cordova-client-plugin-for-payhere.lk
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/shandanjay/cordova-client-plugin-for-payhere.lk
+  detection_source: Repo Metadata
+- name: Gradle
+  description: A powerful build system for the JVM
+  website_url: https://www.gradle.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Java Build Tools
+  image_url: https://img.stackshare.io/service/975/gradlephant-social-black-bg.png
+  detection_source_url: https://github.com/shandanjay/cordova-client-plugin-for-payhere.lk/blob/master/payhere.gradle
+  detection_source: payhere.gradle
+  last_updated_by: Shan Jay
+  last_updated_on: 2018-03-05 10:08:27.000000000 Z
